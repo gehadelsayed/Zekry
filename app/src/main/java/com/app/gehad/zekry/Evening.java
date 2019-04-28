@@ -93,7 +93,7 @@ public class Evening extends AppCompatActivity implements View.OnClickListener {
 
         } else if (id == R.id.back_ebtn && stringListCounter > 0) {
             stringListCounter--;
-            intNumberCounter++;
+            intNumberCounter--;
             counterButton.setText(""+counterList[intNumberCounter]);
             Log.v("this is stringlenth","--->"+stringListCounter);
         }
