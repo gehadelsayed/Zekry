@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@mipmap/background">
+
+
+    <Button
+        android:id="@+id/morning_zekr"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_centerInParent="true"
+        android:text="أذكار الصباح"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/evening_zekr"
+        style="@android:style/"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_below="@+id/morning_zekr"
+        android:text="أذكار المساء"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
