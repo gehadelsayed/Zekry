@@ -9,11 +9,16 @@
 
     <TextView
         android:id="@+id/morning-zkr"
-        android:layout_width="327dp"
+        android:layout_width="434dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:lineSpacingExtra="9sp"
         android:text="here"
         android:textColor="@android:color/white"
@@ -40,7 +45,7 @@
         android:layout_height="71dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="137dp"
+        android:layout_marginBottom="83dp"
         android:text="100"
         android:textSize="28sp"
         android:textStyle="bold" />
